@@ -1,0 +1,44 @@
+
+/* (A) FULL PAGE OVERLAY */
+#owrap {
+	/* (A1) COVER ENTIRE SCREEN */
+	position: fixed; top: 0; left: 0;
+	width: 100vw; height: 100vh; z-index: 998;
+	background: rgba(0, 0, 0, 0.8);
+	
+	/* (A2) HIDE OVERLAY BY DEFAULT */
+	opacity: 0; visibility: hidden;
+	transition: opacity 0.2s;
+  }
+  
+  /* (A3) TOGGLE OPEN OVERLAY */
+  #owrap.show { opacity: 1; visibility: visible; }
+  
+  /* (B) OVERLAY CONTENT */
+  #ocontent {
+	/* (B1) CENTER ON SCREEN */
+	z-index: 999;
+	position: absolute; top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	
+	/* (B2) DIMENSIONS */
+	box-sizing: border-box; padding: 10px;
+	min-width: 800px; max-width: 800px;
+	
+	/* (B3) COSMETICS */
+	background: #fff; text-align: center;
+  }
+  
+  /* (C) OVERLAY CLOSE */
+  #oclose {
+	/* (C1) POSITION TOP RIGHT CORNER */
+	position: absolute;
+	top: 15px; right: 25px;
+  
+	/* (C2) COSMETICS FONT SIZE */
+	font-size: 2.5em; color: #fff; cursor: pointer;
+  }
+  
+  /* (D) FULL PAGE "NO GAPS" */
+  html, body { padding: 0; margin: 0; }
+ 
