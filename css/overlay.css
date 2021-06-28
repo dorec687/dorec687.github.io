@@ -22,10 +22,9 @@
 	transform: translate(-50%, -50%);
 	
 	/* (B2) DIMENSIONS */
-	box-sizing: border-box; padding: 5px;
+	box-sizing: border-box; padding: 10px;
 	/*min-width: 800px; max-width: 800px;*/
-	width: 100vw;
-	min-width: 177.77vh;
+	min-width: 80vh;
 	
 	/* (B3) COSMETICS */
 	background: #fff; text-align: center;
