@@ -815,7 +815,7 @@ About
 	transition: all 1s;
 }
 
-@media(hover){
+@media(hover) and (pointer:fine){
 	
 .box  a:focus,
 .box  a:hover{
