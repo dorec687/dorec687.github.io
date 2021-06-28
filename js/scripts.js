@@ -51,6 +51,13 @@ function initCashemir() {
 		this.removeAttribute("controls");
 		}
 
+	}).on('mouseout', function(event) {
+		if(isMobile == false){
+		this.currentTime = tempVidTime;
+		this.pause();
+		this.removeAttribute("controls");
+		}
+
 	});
 	
 // show menu ------------------	
