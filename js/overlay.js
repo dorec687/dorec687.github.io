@@ -22,7 +22,7 @@ var overlay = {
   // (C) SHOW OVERLAY
   show: function (content) {
     //overlay.econtent.innerHTML = content;
-    overlay.econtent.innerHTML = '<div class="video"><iframe src="https://player.vimeo.com/video/'+content+'" width="100%" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>';
+    overlay.econtent.innerHTML = '<div class="video"><iframe src="https://player.vimeo.com/video/'+content+'?byline=0&title=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>';
     overlay.ewrap.classList.add("show");
   },
   
