@@ -886,19 +886,19 @@ About
 }
 
 video::-webkit-media-controls-play-button {
-	display: none;
+	display: none !important;
 }
 video::-webkit-media-controls-timeline {
-	display: none;
+	display: none !important;
 }
 video::-webkit-media-controls-current-time-display {
-	display: none;
+	display: none !important;
 }
 video::-webkit-media-controls-fullscreen-button {
-	display: none;
+	display: none !important;;
 }
 video::-webkit-media-controls-time-remaining-display {
-	display: none;
+	display: none !important;;
 }
 
 .box a img{
