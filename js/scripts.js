@@ -34,7 +34,7 @@ function initCashemir() {
 	}
 
 //play video trailer
-	var tempVidTime;
+	var tempVidTime = 1;
 	$(".trailer").on("mouseover", function(event) {
 		if(isMobile == false){
 		tempVidTime = this.currentTime;
@@ -701,6 +701,31 @@ function initPortfolio() {
 	// your coordinates   --------
 	var cashemir = new google.maps.LatLng( 40.761467,-73.956379);	
 	function initialize() {	
+
+		//broken firefox
+		if(navigator.userAgent.indexOf("Firefox") != -1 ){
+			var insideul = '<li class="box">'+
+					'<img src="images/videos/trailer_01.jpg" width="90%" onclick="overlay.show('+"'567464817'"+')"/>' +
+				'</li>' +
+				'<li class="box">' +
+					'<img class="trailer" src="images/videos/trailer_02.jpg" width="90%" onclick="overlay.show('+"'567465171'"+')"/>'+
+				'</li>'+
+				'<li class="box">' +
+					'<img class="trailer" src="images/videos/trailer_03.jpg" width="90%" onclick="overlay.show('+"'567465414'"+')"/>' +
+				'</li>' +
+				'<li class="box">' +
+					'<img class="trailer" src="images/videos/trailer_04.jpg" width="90%" onclick="overlay.show('+"'567464679'"+')"/>'+
+				'</li>';
+			document.getElementById("portfolio_id").innerHTML=
+				'<div id="owrap"> \
+					<div id="ocontent"></div> \
+					<div id="oclose" onclick="overlay.hide()">X</div> \
+				</div>' +
+				'<ul id="folio_container" class="grid-full animaper">' + insideul +
+				'</ul>';
+		}
+		//broken firefox end
+
 	  var styles = [
 		{
 			featureType: 'water',

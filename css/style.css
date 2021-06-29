@@ -885,34 +885,19 @@ About
 	display: block;
 }
 
-video::-webkit-media-controls-play-button,
-video::-moz-media-controls-play-button,
-video::-o-media-controls-play-button,
-video::-ms-media-controls-play-button {
+video::-webkit-media-controls-play-button{
 	display: none !important;
 }
-video::-webkit-media-controls-timeline,
-video::-moz-media-controls-timeline,
-video::-o-media-controls-timeline,
-video::-ms-media-controls-timeline {
+video::-webkit-media-controls-timeline{
 	display: none !important;
 }
-video::-webkit-media-controls-current-time-display,
-video::-moz-media-controls-current-time-display,
-video::-o-media-controls-current-time-display,
-video::-ms-media-controls-current-time-display {
+video::-webkit-media-controls-current-time-display {
 	display: none !important;
 }
-video::-webkit-media-controls-fullscreen-button,
-video::-moz-media-controls-fullscreen-button,
-video::-o-media-controls-fullscreen-button,
-video::-ms-media-controls-fullscreen-button {
+video::-webkit-media-controls-fullscreen-button {
 	display: none !important;;
 }
-video::-webkit-media-controls-time-remaining-display,
-video::-moz-media-controls-time-remaining-display,
-video::-o-media-controls-time-remaining-display,
-video::-ms-media-controls-time-remaining-display {
+video::-webkit-media-controls-time-remaining-display {
 	display: none !important;;
 }
 
