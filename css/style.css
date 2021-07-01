@@ -144,17 +144,12 @@ Content Styles
 	color:#fff !important;
 	opacity:1 !important;  
 }
-h1.white{
-	font-size: 4.46666666667em;
-	text-transform: uppercase;
-	letter-spacing: 0.20em;
-	font-weight: 400;
-	line-height: 1.17em;
+/*h1.white{
 	text-shadow: 2px 2px 4px #000000;
 }
 h3.shadow{
 	text-shadow: 2px 2px 4px #000000;
-}
+}*/
 .container p.color-gray {
 	color:#ccc;
 	font-size:24px;
