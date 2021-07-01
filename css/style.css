@@ -145,6 +145,11 @@ Content Styles
 	opacity:1 !important;  
 }
 h1.white{
+	font-size: 4.46666666667em;
+	text-transform: uppercase;
+	letter-spacing: 0.20em;
+	font-weight: 400;
+	line-height: 1.17em;
 	text-shadow: 2px 2px 4px #000000;
 }
 h3.shadow{
