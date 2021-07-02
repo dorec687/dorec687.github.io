@@ -722,7 +722,8 @@ function initPortfolio() {
 					<div id="oclose" onclick="overlay.hide()">X</div> \
 				</div>' +
 				'<ul id="folio_container" class="grid-full animaper">' + insideul +
-				'</ul>';
+				'</ul>' +
+				'<br/><hr style="height:15pt; visibility:hidden;" /><div class="container"><p>*Click to view*</p></div>';
 		}
 		//broken firefox end
 
